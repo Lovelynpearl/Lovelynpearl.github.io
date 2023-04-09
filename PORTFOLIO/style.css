@@ -1,84 +1,87 @@
 body {
     background-color: #4070f4;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display:flexbox;
-    justify-content:left;
-    align-items:self-end;
+    display: flexbox;
+    justify-content: left;
+    align-items: self-end;
     min-height: 50px;
     background: white;
     transition: all 0.3s ease-in-out;
-    
+
 }
+
 body.dark {
     background-color: #18191a;
 }
 
 p {
-    color:blueviolet;
+    color: blueviolet;
     font-size: xx-large;
     font-style: oblique;
 }
+
 * {
     color: brown;
-    
-    
+
+
 }
 
 img {
     height: 150px;
-    width:110px;
+    width: 110px;
     padding: auto;
     border-radius: 20px;
     border-style: double;
-    border-color:black;
+    border-color: black;
 }
 
 .body button {
-   font-size: 40px; 
-   background-color:grey;
-   color: white;
-   padding: 10px 20px;
-   border-radius: 50px;
-box-sizing:content-box;
-box-shadow: 0 0 2px 4px black;
-position: relative;
+    font-size: 40px;
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-sizing: content-box;
+    box-shadow: 0 0 2px 4px black;
+    position: relative;
 
 }
 
-.footer{
+.footer {
     font-size: small;
     background-color: blue;
     padding: 10px;
     border-radius: 50px;
-    
+
 }
+
 .footer button {
-    background-color:aquamarine;
-    
+    background-color: aquamarine;
+
     color: blue;
     font-weight: 500;
     border: 0;
-    font-size:15px;
+    font-size: 15px;
     padding: 5px 10px;
     border-radius: 15px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     box-shadow: 0 0 2px 3px gray;
 }
 
- .div p {
-    position:relative;
+.div p {
+    position: relative;
     align-items: baseline;
 
     margin: 20px;
     color: blue;
     font-weight: 700;
-    font-size:150px ;
- }
-    
+    font-size: 150px;
+}
+
 .body h3 {
-font-size: small;
-font-style: italic;
-color: blueviolet;
+    font-size: small;
+    font-style: italic;
+    color: blueviolet;
 }
 
 
@@ -94,16 +97,17 @@ color: blueviolet;
 }
 
 .toggle::before {
-content: "";
-position: absolute;
-height: 40px;
-width: 40px;
-background: black;
-border-radius: 50%;
-top: 15%;
-left: 14px;
-transform: translate(-25%);
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: black;
+    border-radius: 50%;
+    top: 15%;
+    left: 14px;
+    transform: translate(-25%);
 }
+
 .toggle.active::before {
     background-color: #18191a;
     left: calc(100% - 110% - 14px);
@@ -114,23 +118,15 @@ transform: translate(-25%);
     margin: 20;
     padding: 20;
     box-sizing: border-box;
-    
-}
-
-
-@media screen and (max-witdth:320px) {
 
 }
+
+
+@media screen and (max-witdth:320px) {}
 
 
 
 
 @media screen and (min-width:320px) and (max-width:640px) {
     /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
-  }
-
-
-
-
-
-
+}
