@@ -117,10 +117,6 @@ transform: translate(-25%);
     
 }
 
-@viewpoint {
-width: device-witdth;
-zoom: 1.0;
-}
 
 @media screen and (max-witdth:320px) {
 
